@@ -61,13 +61,13 @@ div.form-list,div.form-text{
     margin-top: 100px;
 }
 
-div.form-list > label >input{
+div.form-list >input{
     padding: 5 0;
     margin-left: 5px;
     margin-bottom: 17px;
 }
 
-div.form-list > label > select{
+div.form-list > select{
     margin-bottom: 17px;
 }
 
@@ -152,7 +152,7 @@ div.iframe2{
 }
 
 @media screen and (max-width: 1029.98px){
-    div.from-text > label > textarea{
+    div.from-text > textarea{
         width: 100%;
         height: auto;
     }
@@ -163,7 +163,7 @@ div.iframe2{
    
     }
 
-    div.from-text > label{
+    div.from-text > textarea {
         width: 100%;
         height: auto;
     }
@@ -238,7 +238,7 @@ div.iframe2{
     div.form-list{
         width: 220px;
     }
-    div.form-list > label > input{
+    div.form-list > input{
         width: 150px;
     }
 

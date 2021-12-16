@@ -52,10 +52,12 @@
                 <div class="form-back"><img src="../imges/form1.png"></div>
                     <form action="#" method="post" >
                         <div class="form-list">
-                            <label>姓名:<input type="text" style="font-size: 20px" placeholder="請輸入姓名"></label><br>
-                            <label>電話:<input type="text" style="font-size: 20px" placeholder="請輸入電話"></label><br>
-                            <label>人數:
-                                <select name="count" style="font-size: 20px">
+                            <label for="input-name" >姓名:</label>
+                            <input id="input-name" type="text" style="font-size: 20px" placeholder="請輸入姓名"><br>
+                            <label for="input-phone">電話:</label>
+                            <input id="input-phone" type="text" style="font-size: 20px" placeholder="請輸入電話"><br>
+                            <label for="select-count">人數:</label>
+                                <select id ="select-count" name="count" style="font-size: 20px">
                                 <option value="1" selected>1人</option>
                                 <option value="2" >2人</option>
                                 <option value="3" >3人</option>
@@ -63,9 +65,9 @@
                                 <option value="5" >5人</option>
                                 <option value="6" >6人</option>
                                 </select>
-                            </label><br>
-                            <label>時間:
-                                <select name="time" style="font-size: 20px">
+                            <br>
+                            <label for="select-time">時間:</label>
+                                <select id="select-time" name="time" style="font-size: 20px">
                                     <option value="1" selected>20:00</option>
                                     <option value="2" >20:30</option>
                                     <option value="3" >21:00</option>
@@ -79,9 +81,9 @@
                                     <option value="11" >01:00</option>
                                     <option value="12" >01:30</option>
                                 </select>
-                            </label><br>
-                            <label>日期:
-                                <select name="date" style="font-size: 20px">
+                            <br>
+                            <label for="select-date">日期:</label>
+                                <select id="select-date" name="date" style="font-size: 20px">
                                     <option value="1" selected>10月27日</option>
                                     <option value="2" >10月28日</option>
                                     <option value="3" >10月29日</option>
@@ -90,12 +92,11 @@
                                     <option value="6" >11月01日</option>
                                     <option value="7" >11月02日</option>
                                 </select>
-                            </label>
                         </div>
                         <div class="form-text">
-                                <label>特殊事項:
-                                    <textarea placeholder="請輸入內容" rows="9" cols="30" style="vertical-align: top;font-size:20px" ></textarea>
-                                </label>
+                                <label for="text">特殊事項:</label>
+                                    <textarea id="text" placeholder="請輸入內容" rows="9" cols="30" style="vertical-align: top;font-size:20px" ></textarea>
+                                
                         </div>
                         <div class="form-button">
                             <button type="submit" >送出</button>
