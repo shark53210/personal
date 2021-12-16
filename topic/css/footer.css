@@ -1,0 +1,54 @@
+footer.footer{
+    width: 1200px;
+    /* border: 1px solid yellow; */
+    color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+div.ftdiv-text,div.ftdiv-follow{
+    display:inline-block ;
+    /* border: 1px solid purple; */
+    vertical-align:middle;
+}
+
+div.ftdiv-follow{
+    float: right ;
+    margin-right: 10px;
+}
+
+div.ftdiv-icon>a{
+    margin: 0px 5px;
+}
+
+/* RWD */
+@media screen and (max-width: 1199.98px){
+    footer.footer{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    div.div-footer{
+        margin: 0 auto;
+    }    
+
+    div.ftdiv-text,div.ftdiv-follow{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    div.ftdiv-text{
+        max-width: 100%;
+        text-align: center;
+    }
+    div.ftdiv-follow{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 990.98px){
+    div.ftdiv-text{
+        font-size: 12px;
+    }
+}

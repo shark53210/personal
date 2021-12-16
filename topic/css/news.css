@@ -1,0 +1,258 @@
+main.main{
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+header.header{
+    margin: 0 auto;
+}
+
+div.news>h1{
+    font-size: 40px;
+    color:white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    /* text-align: left; */
+}
+
+div.news-block{
+    /* display: inline-block; */
+    width: 1200px;
+    height: 210px;
+    /* vertical-align: middle; */
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    margin-bottom: 50px;
+}
+
+div.news-pic,div.news-text,div.news-date{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+div.news-pic{
+    width: 330px;
+    margin-left: 50px;
+    /* font-size: 0; */
+    /* border: 1px solid gray; */
+}
+
+div.news-text{
+    width: 450px;
+    /* border: 1px solid yellow; */
+    margin-left: 50px;
+}
+div.news-text>h1{
+    font-size: 32px;
+    color: white;
+    width: 450px;
+    margin: 0;
+}
+
+div.news-text>p{
+    width: 350px;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    /* border: 1px solid green; */
+}
+
+div.news-date{
+    border-left: 2px solid white;
+    width: 200px;
+    height: 210px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+div.news-date>h1{
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    padding-left: 40px;
+}
+
+div.news-date>p{
+    font-size: 32px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+
+/* RWD */
+
+@media screen and (max-width: 1199.98px){
+    main.main{
+        max-width: 100%;
+    }
+    div.news>h1{
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+     }
+}
+
+@media screen and (max-width: 991.98px){
+    div.news>h1{
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 1199.98px){
+    div.news-block{
+        max-width: 100%;
+    }
+
+    div.news-text{
+        width: 410px;
+        margin-left: 30px;
+    }
+    div.news-text>h1{
+        width: 410px;
+    }
+
+    div.news-date{
+        width: 140px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    div.news-text{
+        width: 320px;
+    }
+    div.news-text>h1{
+        width: 320px;
+        font-size: 24px;
+    }
+
+    div.news-text>p{
+        width: 320px;
+        font-size: 16px;
+    }
+
+    div.news-date>h1{
+        font-size: 32px;
+        padding-left: 20px;
+    }
+
+    div.news-date>p{
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    div.news-date{
+        width: 100px;
+        height: 160px;
+    }
+
+    div.news-pic{
+        width: 240px;
+    }
+    div.news-pic > img{
+        width: 240px;
+    }
+    div.news-block{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 767.98px){
+    a{
+        text-decoration: none;
+    }
+
+    main.main{
+        height: 2100px;
+    }
+    div.news-block{
+        position: relative;
+        height: 470px;
+    }
+
+    div.news-pic,div.news-text{
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0;
+        padding: 0;
+    }
+
+    div.news-pic{
+        max-width: 100%;
+
+    }
+    div.news-pic > img{
+        width: 500px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div.news-text{
+        top:340px;
+        width: 410px;
+    }
+
+    div.news-text>h1{
+        width: 410px;
+        font-size: 32px;
+
+    }
+
+    div.news-text>p{
+        width: 320px;
+        font-size: 20px;
+    }
+
+    div.news-date{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575.98px){
+    main.main{
+        height: 1350px;
+    }
+    div.news-block{
+        position: relative;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    div.news-pic{
+        max-width: 100%;
+
+    }
+    div.news-pic > img{
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div.news-text{
+        top:200px;
+        width: 300px;
+    }
+
+    div.news-text>h1{
+        width: 320px;
+        font-size: 24px;
+
+    }
+
+    div.news-text>p{
+        width: 300px;
+        font-size: 16px;
+    }
+
+    div.news-date{
+        display: none;
+    }
+
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+       <meta charset="utf-8" >
+       <title>預約訂位</title>
+       <meta name="keywords" content="HTML, CSS, JavaScript">
+       <meta name="description" content="網站前端教學">
+       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">  
+       <link href="../css/header.css" rel="stylesheet">
+       <link href="../css/order.css" rel="stylesheet">
+       <link href="../css/footer.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="div">
+               <a href="front.html"> <img class="logo" src="../imges/logo.png"> </a>
+                    <nav class="nav">
+                        <label for="burger">☰</label>
+                        <input type="checkbox" id="burger">
+                        <ul class="all-list">
+                        <li><a href="about.html" >關於我們</a></li>
+                        <li><a href="news.html">最新消息</a></li>
+                        <li>
+                            <div class="div-list">餐點介紹
+                            <ul class="ul-list">
+                                <li><a href="food.html">美食菜單</a></li>
+                                <li><a href="drink.html">各式調酒</a></li>
+                            </ul>
+                            </div>
+                        </li>  
+                        <li><a href="game.html">遊戲介紹</a></li>
+                        <li><a href="order.html">預約訂位</a></li>
+                        <li><a href="place.html">環境寫真</a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="banner1"></div>
+        </header>
+        <main class="main">
+            <div class="order"><h1>預約訂位</h1></div>
+            <div class="order-text">
+                <p>✦營業時間：20：00~03：00AM / 最後點餐時間：01：00AM / 酒類最後點餐時間：02：30AM。</p>
+                <p>✦最低消費：平日200元 / 人 周五六及例假日300元 / 人。</p>
+                <p>✦無法選擇您想要的人數時，歡迎來電洽詢。</p>
+                <p>✦包場或其他服務需求，歡迎透過社群軟體與我們聯絡。</p>
+                <p>✦若欲變更，請撥打連絡電話由專人為您服務。</p>
+                <p>✦若無事先聯絡店家或比預約時間晚到10分鐘以上，店家將優先安排現場候位的其他顧客入座，並「取消訂位」。</p>
+                <p>✦若無事先取消而當天未來用餐者，日後將可能無法接受您的預約。</p>
+            </div>
+            <div class="form">
+                <div class="form-back"><img src="../imges/form1.png"></div>
+                    <form action="#" method="post" >
+                        <div class="form-list">
+                            <label>姓名:<input type="text" style="font-size: 20px" placeholder="請輸入姓名"></label><br>
+                            <label>電話:<input type="text" style="font-size: 20px" placeholder="請輸入電話"></label><br>
+                            <label>人數:
+                                <select name="count" style="font-size: 20px">
+                                <option value="1" selected>1人</option>
+                                <option value="2" >2人</option>
+                                <option value="3" >3人</option>
+                                <option value="4" >4人</option>
+                                <option value="5" >5人</option>
+                                <option value="6" >6人</option>
+                                </select>
+                            </label><br>
+                            <label>時間:
+                                <select name="time" style="font-size: 20px">
+                                    <option value="1" selected>20:00</option>
+                                    <option value="2" >20:30</option>
+                                    <option value="3" >21:00</option>
+                                    <option value="4" >21:30</option>
+                                    <option value="5" >22:00</option>
+                                    <option value="6" >22:30</option>
+                                    <option value="7" >23:00</option>
+                                    <option value="8" >23:30</option>
+                                    <option value="9" >24:00</option>
+                                    <option value="10" >24:30</option>
+                                    <option value="11" >01:00</option>
+                                    <option value="12" >01:30</option>
+                                </select>
+                            </label><br>
+                            <label>日期:
+                                <select name="date" style="font-size: 20px">
+                                    <option value="1" selected>10月27日</option>
+                                    <option value="2" >10月28日</option>
+                                    <option value="3" >10月29日</option>
+                                    <option value="4" >10月30日</option>
+                                    <option value="5" >10月31日</option>
+                                    <option value="6" >11月01日</option>
+                                    <option value="7" >11月02日</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="form-text">
+                                <label>特殊事項:
+                                    <textarea placeholder="請輸入內容" rows="9" cols="30" style="vertical-align: top;font-size:20px" ></textarea>
+                                </label>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" >送出</button>
+                        </div>
+                    </form>    
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.467830345464!2d121.54105885082457!3d25.052127983885057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abe6b0446815%3A0xf006dde8c27afcc7!2z57ev6IKyVGliYU1l6ZmE6Kit5Y-w5YyX6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1634993516523!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>">
+            </div>
+            <div class="iframe2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.467830345464!2d121.54105885082457!3d25.052127983885057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abddfa4b02ab%3A0x7b0d48826d60cad0!2zMTA05Y-w5YyX5biC5Lit5bGx5Y2A5Y2X5Lqs5p2x6Lev5LiJ5q61MjE56JmfNeaokw!5e0!3m2!1szh-TW!2stw!4v1637070041131!5m2!1szh-TW!2stw" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="div-footer">
+                <div class="ftdiv-text">
+                    <p>本網站為緯育TibaMe前端設計工程師班第72期學員專題作品，本平台僅供學習、展示之用。</p>
+                    
+                    <p>參考資源:http://www.nep6363.com/index.php?lang=tw。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理。</p>
+                </div>
+                <div class="ftdiv-follow">
+                    <p>Follow us</p>
+                    
+                    <div class="ftdiv-icon">
+                        <a href="https://www.facebook.com/TibaMe/">
+                        <img src="../icons/FBicon.png"></a>
+                        <a href="#"><img src="../icons/IGicon.png"></a>
+                        <a href="#"><img src="../icons/Twittericon.png"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>    

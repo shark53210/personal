@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+       <meta charset="utf-8" >
+       <title>各式調酒</title>
+       <meta name="keywords" content="HTML, CSS, JavaScript">
+       <meta name="description" content="網站前端教學">
+       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">  
+       <link href="../css/header.css" rel="stylesheet">
+       <link href="../css/drink.css" rel="stylesheet">
+       <link href="../css/footer.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="div">
+               <a href="front.html"> <img class="logo" src="../imges/logo.png"> </a>
+                    <nav class="nav">
+                        <label for="burger">☰</label>
+                        <input type="checkbox" id="burger">
+                        <ul class="all-list">
+                        <li><a href="about.html" >關於我們</a></li>
+                        <li><a href="news.html">最新消息</a></li>
+                        <li>
+                            <div class="div-list">餐點介紹
+                            <ul class="ul-list">
+                                <li><a href="food.html">美食菜單</a></li>
+                                <li><a href="drink.html">各式調酒</a></li>
+                            </ul>
+                            </div>
+                        </li>  
+                        <li><a href="game.html">遊戲介紹</a></li>
+                        <li><a href="order.html">預約訂位</a></li>
+                        <li><a href="place.html">環境寫真</a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="banner1"></div>
+        </header>
+        <!-- 更新前 -->
+        <!-- <div class=aside-main>
+            <aside class="aside">
+                <a href="food.html"><h1>美味餐點</h1></a>
+                <a href="drink.html"><h1>各式調酒</h1></a>
+            </aside>
+            <main class="main">
+                <div class="drink-img">
+                    <img src="../imges/drink1.png">
+                    <img  class="img" src="../imges/drink2.png">
+                    <img src="../imges/drink3.png">
+                </div>
+                <div class="drink-text">
+                    <p>來到酒吧想要體驗ㄎㄧㄤ的感覺？推薦這杯長島冰茶給你。不同濃度的烈酒混酒後勁驚人，讓長島冰茶有失神之酒的小名。</p>
+                    <p class="p">血腥瑪莉主要成分是番茄汁，沒錯，這是一款「鹹的」調酒，喝起來鹹鹹辣辣的，調酒驚悚的名字就先警告你，膽小者勿入！</p>
+                    <p>從調酒名字大概就可以臆測，Sex on the beach 這是一杯性感撩人的調酒，以伏特加維基酒，加了多樣帶有水果香氣的果汁，喝起來像是加了酒精的綜合果汁。</p>
+                </div>
+                <div class="drink-img">
+                    <img src="../imges/drink4.png">
+                    <img  class="img" src="../imges/drink5.png">
+                    <img src="../imges/drink6.png">
+                </div>
+                <div class="drink-text">
+                    <p>想要試試以萊姆作為基酒的調酒，Mojito 會是最熱門的不二選擇。酒精濃度不高，薄荷與檸檬組合的清爽口感，對於調酒新手來說，會是很好的一張安全牌。</p>
+                    <p class="p">如果你是位注重細節，喜愛品味生活的英倫紳士（或是正在往英倫紳士的道路上邁進也歡迎），來到就吧點這杯內格羅尼 Negroni 不會錯。</p>
+                    <p>你知道 Negroni 有一個很花心的哥們，大家都叫它花花公子嗎？他唯一差別就是花花公子使用威士忌替代琴酒，如果你愛 Negroni，你一定也會愛上花花公子，非常值得一試。</p>
+                </div>
+                <div class="drink-img">
+                    <img src="../imges/drink7.png">
+                    <img  class="img" src="../imges/drink8.png">
+                    <img src="../imges/drink9.png">
+                </div>
+                <div class="drink-text">
+                    <p>咖啡酒加上俄羅斯伏特加的組合，讓咖啡成癮的君子們都愛上了這杯有濃烈咖啡香的調酒。</p>
+                    <p class="p">白俄羅斯與黑俄羅斯是兄弟酒，伏特加加上咖啡酒再加上鮮奶油就完成。比起黑色俄羅斯口感更綿密、甜膩一些喜歡拿鐵風味的這款很推薦。</p>
+                    <p>又有雞尾酒之后之稱的瑪格麗特，是龍舌蘭基酒的代表作，只要想到龍舌蘭調酒，瑪格莉特絕對是第一位。</p>
+                </div>
+                <div class="drink-img">
+                    <img src="../imges/drink10.png">
+                    <img  class="img" src="../imges/drink11.png">
+                    <img src="../imges/drink12.png">
+                </div>
+                <div class="drink-text">
+                    <p>粉紅佳人，不管是名字還是外觀都有一種溫柔淑女的感覺基酒使用琴酒並加上紅石榴糖漿，最後加上蛋白或是鮮奶油，打造出綿密的泡沫來升級口感。</p>
+                    <p class="p">琴通寧是受歡迎的調酒，做法也相當簡單，將琴酒混合通寧水(氣泡水)再加入檸檬片就完成。喝起來有檸檬香氣的酒香的汽水，會有些微苦味。</p>
+                    <p>螺絲起子作法及材料都簡單，是很普遍以及大家接受度較高的調酒。伏特加作為基底酒，加上新鮮的柳橙汁或是濃縮柳橙汁就完成。</p>
+                </div>
+            </main>
+        </div> -->
+
+        <!-- 更新後 -->
+        <div class="drink"><h1>各式調酒</h1></div>
+        <button type="button" class="btn_hamburger">☰</button>
+        <aside class="aside">
+            <nav class="nav2">
+                <button type="button" class="btn_hamburger">☰</button>
+                <ul class="nav_list">
+                    <li><a href="food.html">美味餐點</a></li>
+                    <li><a href="drink.html">各式調酒</a></li>
+    
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main">
+            <ul class="item_list">
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink1.png">
+                        </div>
+                        <span class="item_text">來到酒吧想要體驗ㄎㄧㄤ的感覺？推薦這杯長島冰茶給你。不同濃度的烈酒混酒後勁驚人，讓長島冰茶有失神之酒的小名</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink2.png">
+                        </div>
+                        <span class="item_text">血腥瑪莉主要成分是番茄汁，沒錯，這是一款「鹹的」調酒，喝起來鹹鹹辣辣的，調酒驚悚的名字就先警告你，膽小者勿入！</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink3.png">
+                        </div>
+                            <span class="item_text">從調酒名字大概就可以臆測，Sex on the beach 這是一杯性感撩人的調酒，以伏特加維基酒，加了多樣帶有水果香氣的果汁，喝起來像是加了酒精的綜合果汁</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink4.png">
+                        </div>
+                        <span class="item_text">想要試試以萊姆作為基酒的調酒，Mojito 會是最熱門的不二選擇。酒精濃度不高，薄荷與檸檬組合的清爽口感，對於調酒新手來說，會是很好的一張安全牌</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink5.png">
+                        </div>
+                        <span class="item_text">如果你是位注重細節，喜愛品味生活的英倫紳士（或是正在往英倫紳士的道路上邁進也歡迎），來到就吧點這杯內格羅尼 Negroni 不會錯</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink6.png">
+                        </div>
+                        <span class="item_text">你知道 Negroni 有一個很花心的哥們，大家都叫它花花公子嗎？他唯一差別就是花花公子使用威士忌替代琴酒，如果你愛 Negroni，你一定也會愛上花花公子，非常值得一試</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink7.png">
+                        </div>
+                        <span class="item_text">白俄羅斯與黑俄羅斯是兄弟酒，伏特加加上咖啡酒再加上鮮奶油就完成。比起黑色俄羅斯口感更綿密、甜膩一些喜歡拿鐵風味的這款很推薦</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink8.png">
+                        </div>
+                        <span class="item_text">又有雞尾酒之后之稱的瑪格麗特，是龍舌蘭基酒的代表作，只要想到龍舌蘭調酒，瑪格莉特絕對是第一位</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink9.png">
+                        </div>
+                        <span class="item_text">又有雞尾酒之后之稱的瑪格麗特，是龍舌蘭基酒的代表作，只要想到龍舌蘭調酒，瑪格莉特絕對是第一位</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink10.png">
+                        </div>
+                        <span class="item_text">粉紅佳人，不管是名字還是外觀都有一種溫柔淑女的感覺基酒使用琴酒並加上紅石榴糖漿，最後加上蛋白或是鮮奶油，打造出綿密的泡沫來升級口感</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink11.png">
+                        </div>
+                        <span class="item_text">琴通寧是受歡迎的調酒，做法也相當簡單，將琴酒混合通寧水(氣泡水)再加入檸檬片就完成。喝起來有檸檬香氣的酒香的汽水，會有些微苦味</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/drink12.png">
+                        </div>
+                        <span class="item_text">螺絲起子作法及材料都簡單，是很普遍以及大家接受度較高的調酒。伏特加作為基底酒，加上新鮮的柳橙汁或是濃縮柳橙汁就完成</span>
+                    </a>
+                </li>
+            </ul>
+        </main>
+
+        <footer class="footer">
+            <div class="div-footer">
+                <div class="ftdiv-text">
+                    <p>本網站為緯育TibaMe前端設計工程師班第72期學員專題作品，本平台僅供學習、展示之用。</p>
+                    
+                    <p>參考資源:http://www.nep6363.com/index.php?lang=tw。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理。</p>
+                </div>
+                <div class="ftdiv-follow">
+                    <p>Follow us</p>
+                    
+                    <div class="ftdiv-icon">
+                        <a href="https://www.facebook.com/TibaMe/">
+                        <img src="../icons/FBicon.png"></a>
+                        <a href="#"><img src="../icons/IGicon.png"></a>
+                        <a href="#"><img src="../icons/Twittericon.png"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $("button.btn_hamburger").on("click",function(){
+            $("aside.aside").toggleClass("-on");
+        });
+        </script>
+    </body>
+</html>        

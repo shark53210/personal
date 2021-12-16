@@ -1,0 +1,128 @@
+main.main{
+    width: 1200px;
+    /* height: 1450px; */
+    margin: 0 auto ;
+    /* border: 1px solid red; */
+}
+
+header.header{
+    margin: 0 auto;
+}
+
+div.about>h1{
+    font-size: 40px;
+    color:white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+div.place-block1{
+    width: 1000px;
+    margin: 50px auto 0 auto;
+    /* box-sizing: border-box; */
+    font-size: 0 ;
+}
+
+div.place-block1>img.img2{
+    margin-left: 75px;
+}
+
+div.place-block>img{
+    width: 225px;
+    height: 165px;
+    /* display: block; */
+}
+
+div.place-block{
+    width: 900px;
+    margin: 30px auto 0 auto ;
+    font-size: 0 ;
+}
+
+div.place-block>img.img3{
+    margin-left: 5px;
+}
+
+div.place-block>img.img4{
+    margin: 0 100px;
+}
+
+div.place-block5{
+    margin-bottom: 50px;
+}
+
+/* RWD */
+
+div.about{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1199.98px){
+    main.main{
+        max-width: 100%;
+    }
+    div.about>h1{
+        width: 90%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+     }
+}
+
+@media screen and (max-width: 991.98px){
+    div.place-block1{
+        width: 75%;
+        margin: 0 auto;
+    }
+    div.place-block1 > img{
+        width: 300px;
+    }
+    div.place-block1 > img.img1{
+        margin:0 5% 0 0;
+    }
+
+    div.place-block1 > img.img2{
+        margin:0 0 0 5%;
+    }
+
+    div.about>h1{
+        font-size: 32px;
+    }
+    div.place-block3{
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 891.98px){
+    div.place-block1{
+        max-width: 100%;
+    }
+    div.place-block1 > img{
+        display: block;
+        width: 300px;
+        height: 198px;
+    }
+
+    div.place-block1 > img.img1,div.place-block1 > img.img2{
+        margin: 0 auto 20px auto;
+    }
+
+    div.place-block{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    div.place-block > img{
+        display: block;
+        width: 300px;
+        height: 198px;
+    }
+
+    div.place-block > img.img3,
+    div.place-block > img.img4,
+    div.place-block > img.img5{
+        margin: 0 auto 20px auto;
+    }
+}

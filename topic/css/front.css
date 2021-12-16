@@ -1,0 +1,1215 @@
+body{
+    margin: 0;
+}
+
+div.banner2{
+    background-image: url("../imges/banner2.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    /* background-position: 1% 100% ; */
+    background-size: contain;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+   }
+
+div.div-main{
+    width: 1200px;  
+    box-sizing: border-box;
+    font-size: 0;
+    /* border: 1px solid red; */
+    position: relative;
+    height: 1450px;
+    margin: 0 auto;
+    
+ }  
+main.main1{
+    width: 1200px;
+    display: inline-flex;
+    top: 4px; 
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+  } 
+div.img-block1,div.img-block2{
+    display: inline-flex;
+}
+
+main.main1 div.img a> img{
+    box-sizing: border-box;
+    /* display: inline-block; */
+    width: 300px;
+    height: 350px;
+    padding: 0px 10px;
+ }
+
+ main.main1 div.img1 a>img {  
+     padding: 0px 10px 0px 4px ;
+ }
+
+ main.main1 div.img4 a>img {  
+    padding: 0px 4px 0px 10px ;
+}
+
+div.img a{
+    text-decoration: none;
+}
+
+ div.img a>p{
+     font-size: 20px;
+     color: white;
+     width: 100px;
+     display: inline-block;
+
+ }
+
+ div.img a>p.p1{
+     position: relative;
+     top: -370px;
+     left: 200px;
+     text-decoration: none;
+ }
+
+ div.img a>p.p2{
+    position: relative;
+    top: -90px;
+    left: 240px;
+}
+
+div.img a>p.p3{
+    position: relative;
+    top: -370px;
+    left: 20px;
+    width: 100px;
+}
+
+div.img a>p.p4{
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+div.img a>p.p5{
+    position: relative;
+    top: -370px;
+    left: 200px;
+}
+
+div.img a>p.p6{
+    position: relative;
+    top: -90px;
+    left: 240px;
+}
+
+div.img a>p.p7{
+    position: relative;
+    top: -370px;
+    left: 20px;
+}
+
+div.img a>p.p8{
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+main.main2{
+    position: absolute; 
+    top: 200px;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    /* left: 50%; */
+    /* transform: translate(25%,-50%); */
+    /* display: inline-flex; */
+    /* border: 1px solid blue; */
+   }
+
+/* div.block1{
+    height: 305px;
+} */
+div.block1>a{
+    text-decoration: none;
+}
+
+/* div.block1>a>p{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 45%;
+    top: -160px;
+    width: 480px;
+    margin: 0px;
+} */
+
+/* div.block1 >a >h1{
+    display: inline-block;
+    position: relative ;
+    left: 69%;
+    top: -300px;
+    color: white;
+    font-size: 32px;
+    width: 130px;
+} */
+div.block2 > a{
+    text-decoration: none;
+}
+
+/* div.block2>a>p{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: -70px;
+    top:-180px;
+    width: 480px;
+    margin-bottom: 80px;
+} */
+
+/* div.block2 >a >h1{
+    display: inline-block;
+    position: relative ;
+    left: 19%;
+    top: -320px;
+    color: white;
+    font-size: 32px;
+    width: 130px;
+} */
+
+main.main2>h1{
+    color: white;
+    font-size: 48px;
+    position: relative;
+    top: -540px;
+    left: 50px;
+    width: 200px;
+    margin: 30px 50px;
+}
+
+div.banner3{
+    background-image:url("../imges/banner3.png") ;
+    background-repeat: no-repeat;
+    height: 510px;
+    background-size: contain;
+    width: 885px;
+    position: relative;
+    top: 55px;
+    left: 27%;
+    margin: 0;
+}
+
+div.news-block > a > img {
+    width: 250px;
+    height: 160px;
+
+}
+
+div.news-block1{
+    /* display: inline-flex; */
+    position: relative;
+    top:-620px;
+    height: 170px;
+    margin-top: 80px;
+}
+
+div.news1{
+    position: relative;
+    left: 280px;
+    top:-160px;
+}
+
+div.news-block div.news1>h1{
+    font-size: 20px;
+    color: white;
+}
+
+div.news-block div.news1>p{
+    font-size: 16px;
+    color: white;
+}
+
+div.news-block2{
+    /* display: inline-flex; */
+    position: relative;
+    top: -620px;
+    height: 170px;
+}
+
+div.news2{
+    position: relative;
+    left: 280px;
+    top:-160px;
+
+}
+
+div.news-block div.news2>h1{
+    /* display: inline-flex; */
+    font-size: 20px;
+    color: white;
+}
+
+div.news-block div.news2>p{
+    font-size: 16px;
+    color: white;
+}
+
+div.news-block3{
+    /* display: inline-flex; */
+    position: relative;
+    top: -620px;
+    height: 170px;
+}
+
+div.news3{
+    position: relative;
+    left: 280px;
+    top:-160px;
+
+}
+
+div.news-block div.news3>h1{
+    /* display: inline-flex; */
+    font-size: 20px;
+    color: white;
+}
+
+div.news-block div.news3>p{
+    font-size: 16px;
+    color: white;
+}
+
+div.news-block > a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+}
+
+div.news-block{
+    width: 300px;
+}
+
+.a div.div-place{
+    display: inline-block;
+    position: relative;
+    top: 800px;
+    box-sizing: border-box;
+    width: 1200px;
+    margin-top: 30px;
+}
+
+.a div.div-place > ul > li > img{
+    width: 300px;
+    display: inline-block;
+}
+/* 為了特效更新 */
+div.block3,div.block4{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.block1 > a > div.block4 > img{
+    position: absolute;
+    z-index: 1;
+}
+
+div.block1 > a > div.block4 > h1{
+    font-size: 32px;
+    color: white;
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 2;
+    top: 35px;
+    left: 48%;
+    width: 200px;
+
+}
+
+div.block1 > a > div.block4 > p{
+    font-size: 20px ;
+    color: white;
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    left: 15%;
+}
+
+div.block1 > a > div.block3 > img{
+    width: 600px;
+    overflow: hidden;
+    transform: scale(1,1);
+    transition: all .5s ease-out;
+}
+
+div.block1 > a > div.block3 > img:hover{
+    transform:scale(1.2,1.2);
+}
+
+div.block3{
+    overflow: hidden;
+}
+
+div.block5,div.block6{
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.block5{
+    width: 600px;
+}
+
+div.block2 > a > div.block5 > img{
+    position: absolute;
+    z-index: 1;
+}
+
+div.block2 > a > div.block5 > h1{
+    font-size: 32px;
+    color: white;
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 2;
+    top: 35px;
+    left: 38%;
+    width: 200px;
+}
+
+div.block2 > a > div.block5 > p{
+    font-size: 20px ;
+    color: white;
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    left: 10%;
+}
+
+div.block2 > a > div.block6 > img{
+    width: 600px;
+    overflow: hidden;
+    transform: scale(1,1);
+    transition: all .5s ease-out;
+}
+
+div.block2 > a > div.block6 > img:hover{
+    transform:scale(1.2,1.2);
+}
+
+div.block6{
+    overflow: hidden;
+}
+
+.a div.div-place{
+    height: 3em;
+    margin: 0 auto;
+    overflow: hidden; 
+    position: relative;
+    background: black;
+   }
+   
+   .a div.div-place > ul{
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    animation: marqee 15s linear infinite;
+    position: absolute;
+   }
+   
+  .a div.div-place > ul > li >img{
+    white-space: nowrap;
+    margin-right: 2em;
+    font-weight: bold;
+    color: yellow;
+   }
+   
+   @keyframes div-place {
+    0% {
+     left: 100%;
+     transform: translateX(0%);
+    }
+     100% {
+     left: 0;
+     transform: translateX(-100%);
+    }
+   }
+
+section.section{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+    position: relative;
+    top:-30px;
+}
+
+section.section marquee a div.div-place > img{
+    width: 300px;
+    height: 225px;
+}
+
+/* RWD更新 */
+
+@media screen and (max-width: 1199.98px){
+    div.div-main{
+        max-width: 100%;
+    }
+
+    main.main1{
+        max-width: 100%;
+        display: block;
+        /* position: relative; */
+        /* border: 1px solid red; */
+    }
+    div.img-block1,div.img-block2{
+        display: flex;
+    }
+    div.img-block1{
+        /* max-width: 100%; */
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:-230px;
+    }
+
+    div.img-block2{
+        /* max-width: 100%; */
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:130px;
+    }
+
+    main.main1 div.img a> img{
+        box-sizing: border-box;
+        padding: 0px 10px;
+     }
+
+
+    
+}
+
+@media screen and (max-width:575.98px){
+    main.main1 div.img a> img{
+        width: 180px;
+        height: 220px;
+        padding: 0px 10px;
+    }
+
+    div.img-block2{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:20px;
+    }
+
+    div.img a>p{
+        font-size: 16px;
+        color: white;
+    }
+   
+    div.img a>p.p1{
+        position: relative;
+        top: -235px;
+        left: 100px;
+        text-decoration: none;
+    }
+   
+    div.img a>p.p2{
+       position: relative;
+       top: -70px;
+       left: 130px;
+   }
+   
+   div.img a>p.p3{
+       position: relative;
+       top: -235px;
+       left: 10px;
+   }
+   
+   div.img a>p.p4{
+       position: relative;
+       top: -70px;
+       left: 10px;
+   }
+   
+   div.img a>p.p5{
+       position: relative;
+       top: -235px;
+       left: 100px;
+   }
+   
+   div.img a>p.p6{
+       position: relative;
+       top: -70px;
+       left: 130px;
+   }
+   
+   div.img a>p.p7{
+       position: relative;
+       top: -235px;
+       left: 10px;
+   }
+   
+   div.img a>p.p8{
+       position: relative;
+       top: -70px;
+       left: 10px;
+   }
+}
+
+@media screen and (max-width: 1199.98px){
+    div.banner2{
+        background-position: center;
+        max-width: 100%;
+        position: relative;
+        top: 330px;
+       }
+}
+
+@media screen and (max-width:575.98px){
+    div.banner2{
+        position: relative;
+        top: 0px;
+       }
+}
+
+
+@media screen and (max-width: 1199.98px){
+    main.main2{
+        max-width: 100%;
+    }
+    div.block1{
+        width: 800px;
+        /* border: 2px solid white; */
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top:400px;
+    }
+
+    div.block1 > a{
+        /* border: 2px solid red; */
+        display: block;
+    }
+
+    div.block3,div.block4{
+        display: inline-block;
+    }
+    div.block3{
+        /* border: 2px solid green; */
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+
+    div.block1 > a > div.block3 > img{
+        width: 400px;
+        height: 200px;
+    }
+
+    div.block4{
+        /* border: 2px solid blue; */
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+
+    div.block1 > a > div.block4 > img{   
+        width: 400px;
+        height: 200px;
+
+    }
+    div.block1 > a div.block4 > h1{
+        /* border: 2px solid yellow; */
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:0px;
+        font-size: 24px;
+    }
+
+    div.block1 > a div.block4 > p{
+        /* border: 2px solid orange; */
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+    }
+
+    div.block2{
+        width: 800px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top:400px;
+    }
+
+    div.block2 > a{
+        display: block;
+    }
+
+    div.block5,div.block6{
+        display: inline-block;
+    }
+    div.block5{
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+
+    div.block2 > a > div.block6 > img{
+        width: 400px;
+        height: 200px;
+    }
+
+    div.block5{
+        /* border: 2px solid blue; */
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+
+    div.block2 > a > div.block5 > img{   
+        width: 400px;
+        height: 200px;
+
+    }
+    div.block2 > a div.block5 > h1{
+        /* border: 2px solid yellow; */
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:0px;
+        font-size: 24px;
+    }
+
+    div.block2 > a div.block5 > p{
+        /* border: 2px solid orange; */
+        position: absolute;
+        left: 5%;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 809.98px){
+    div.block1{
+        width: 600px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top:400px;
+    }
+
+    div.block1 > a{
+        display: block;
+    }
+
+    div.block3{
+        width: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    div.block1 > a > div.block3 > img{
+        width: 300px;
+        height: 150px;
+    }
+
+    div.block4{
+        width: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    div.block1 > a > div.block4 > img{   
+        width: 300px;
+        height: 150px;
+
+    }
+    div.block1 > a div.block4 > h1{
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:0px;
+        font-size: 20px;
+    }
+
+    div.block1 > a div.block4 > p{
+        position: absolute;
+        left: 5%;
+        font-size: 12px;
+    }
+
+    div.block2{
+        width: 600px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top:400px;
+    }
+
+    div.block2 > a{
+        display: block;
+    }
+
+    div.block5,div.block6{
+        display: inline-block;
+    }
+    div.block5{
+        width: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    div.block2 > a > div.block6 > img{
+        width: 300px;
+        height: 150px;
+    }
+
+    div.block5{
+        width: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    div.block2 > a > div.block5 > img{   
+        width: 300px;
+        height: 150px;
+
+    }
+    div.block2 > a div.block5 > h1{
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:0px;
+        font-size: 20px;
+    }
+
+    div.block2 > a div.block5 > p{
+        position: absolute;
+        left: 5%;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:575.98px){
+    div.block1{
+        width: 300px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top:80px;
+    }
+
+    div.block1 > a div.block4 > h1{
+        font-size: 20px;
+    }
+
+    div.block1 > a div.block4 > p{
+        font-size: 12px;
+    }
+
+    div.block2{
+        width: 300px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top:80px;
+    }
+
+    div.block2 > a{
+        display: block;
+    }
+
+    div.block5,div.block6{
+        display: inline-block;
+    }
+    div.block5{
+        width: 300px;
+        height: 150px;
+        position: relative;
+    }
+
+    div.block2 > a > div.block6 > img{
+        width: 300px;
+        height: 150px;
+    }
+
+    div.block5{
+        width: 300px;
+        height: 150px;
+        position: relative;
+        top:150px
+    }
+
+    div.block6{
+        position: relative;
+        top:-150px
+    }
+
+    div.block2 > a > div.block5 > img{   
+        width: 300px;
+        height: 150px;
+
+    }
+    div.block2 > a div.block5 > h1{
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:0px;
+        font-size: 20px;
+    }
+
+    div.block2 > a div.block5 > p{
+        position: absolute;
+        left: 5%;
+        font-size: 12px;
+    }
+    div.block5 > p > span{
+        display: none;
+    }
+}
+
+/* NWES */
+
+@media screen and (max-width: 1199.98px){
+    /* main.main2{
+        height:1200px;
+    } */
+
+    main.main2>h1{
+        font-size: 32px;
+        position: absolute;
+        top: 800px;
+        left:unset;
+        width: 200px;
+        margin: 0 auto 0 12%;
+        /* border: 1px solid red; */
+    }
+    
+    div.banner3{
+        height: 510px;
+        max-width: 70%;
+        position: relative;
+        top: 440px;
+        left: 30%;
+        margin: 0;
+    }
+    
+    div.news-block > a > img {
+        width: 200px;
+        height: 128px;
+    }
+    
+    div.news-block1{
+        position: absolute;
+        top:760px;
+        height: 170px;
+        margin-top: 80px;
+        margin-left: 50px;
+        width: 80%;
+    }
+    
+    div.news1{
+        position: relative;
+        left: 230px;
+        top:-120px;
+        width: 250px;
+    }
+    
+    div.news-block div.news1>h1{
+        font-size: 16px;
+    }
+    
+    div.news-block div.news1>p{
+        font-size: 12px;
+    }
+    
+    div.news-block2{
+        position: absolute;
+        top: 980px;
+        height: 170px;
+        margin-left: 50px;
+    }
+    
+    div.news2{
+        position: relative;
+        left: 230px;
+        top:-120px;
+        width: 250px;
+
+    }
+    
+    div.news-block div.news2>h1{
+        font-size: 16px;
+    }
+    
+    div.news-block div.news2>p{
+        font-size: 12px;
+    }
+    
+    div.news-block3{
+        position: absolute;
+        top: 1120px;
+        height: 170px;
+        margin-left: 50px;
+    }
+    
+    div.news3{
+        position: relative;
+        left: 230px;
+        top:-120px;
+        width: 250px;
+
+    }
+    
+    div.news-block div.news3>h1{
+        font-size: 16px;
+    }
+    
+    div.news-block div.news3>p{
+        font-size: 12px;
+    }
+    
+
+}
+
+@media screen and (max-width: 991.98px){
+
+    div.news-block > a > img {
+        width: 150px;
+        height: 96px;
+    }
+
+    div.news-block1{
+        position: absolute;
+        top:760px;
+        margin-left: 80px;
+    }
+
+    div.news-block2{
+        position: absolute;
+        top: 960px;
+        height: 170px;
+        margin-left: 80px;
+    }
+
+    div.news-block3{
+        position: absolute;
+        top: 1080px;
+        height: 170px;
+        margin-left: 80px;
+    }
+
+    div.news1,div.news2,div.news3{
+        position: relative;
+        left: 170px;
+        top:-100px;
+    }
+}
+ @media screen and (max-width: 809.98px){
+    div.news1,div.news2,div.news3{
+         position: relative;
+          left: 170px;
+          top:-100px;
+      }
+
+    main.main2>h1{
+        font-size: 24px;
+        top: 710px;
+        margin: 0 auto 0 15%;
+        }
+
+    div.news-block1{
+        position: absolute;
+        top:660px;
+        margin-left: 50px;
+    }
+    
+    div.news-block2{
+        position: absolute;
+        top: 850px;
+        height: 170px;
+        margin-left: 50px;
+        }
+    
+    div.news-block3{
+        position: absolute;
+        top: 960px;
+        height: 170px;
+        margin-left: 50px;
+
+    }
+}
+
+@media screen and (max-width:575.98px){
+    main.main2{
+        height: 1000px;
+    }
+
+    div.news-block{
+        position: absolute;
+        width: 250px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div.news-block1{
+        /* margin-left: 5%; */
+        top:720px
+    }
+    
+    div.news-block2{
+        /* margin-left: 5%; */
+        /* display: none; */
+        top:980px;
+        }
+    
+    div.news-block3{
+        /* margin-left: 5%; */
+        /* display: none; */
+        top:1240px;
+    }
+    
+    div.banner3{
+        /* height: 250px;
+        max-width: 65%;
+        position: relative;
+        top: 120px;
+        left: 25%;
+        margin: 0; */
+        display: none;
+    }
+
+    div.news-block div.news1>h1{
+        font-size: 16px;
+        width: 250px;
+    }
+
+    div.news-block div.news1>p{
+        font-size: 12px;
+        width: 250px;
+    }
+
+    div.news-block div.news1{
+        width: 250px;
+    }
+
+    div.news-block div.news2>h1{
+        font-size: 16px;
+        width: 250px;
+    }
+
+    div.news-block div.news2>p{
+        font-size: 12px;
+        width: 250px;
+    }
+
+    div.news-block div.news3>h1{
+        font-size: 16px;
+        width: 250px;
+    }
+
+    div.news-block div.news3>p{
+        font-size: 12px;
+        width: 250px;
+    }
+
+    div.news-block div.news3{
+        width: 250px;
+    }
+
+
+    div.news-block div.news2{
+        width: 250px;
+    }
+
+    main.main2>h1{
+        font-size: 24px;
+        top: 690px;
+        margin: 0 auto 0 20%;
+        }
+
+    div.news-block > a > img, div.news1{
+        display: block;
+        position: static;
+    }
+
+    div.news-block > a > img, div.news2{
+        display: block;
+        position: static;
+    }
+    div.news-block > a > img, div.news3{
+        display: block;
+        position: static;
+    }
+
+
+    div.news-block{
+        /* margin-left: 30%; */
+        position:absolute;
+        margin:  0 auto;
+    }
+
+    div.news-block > a > img{
+        width: 250px;
+        height: 150px;
+    }
+}    
+
+@media screen and (max-width: 1199.98px){
+    
+    section.section{
+        max-width: 100%;
+        margin: 0 auto 120px auto;
+        font-size: 0;
+        position: relative;
+        top:60px;
+    }
+    
+}
+
+@media screen and (max-width: 991.98px){
+    
+    section.section{
+        max-width: 100%;
+        margin: 0 auto 30px auto;
+        font-size: 0;
+        position: relative;
+        top:0px;
+    }
+    
+}
+
+@media screen and (max-width: 809.98px){
+    
+    section.section{
+        max-width: 100%;
+        margin: 0 auto -160px auto;
+        font-size: 0;
+        position: relative;
+        top:-180px;
+    }
+    
+}
+
+@media screen and (max-width: 575.98px){
+    
+    section.section{
+        max-width: 100%;
+        margin: 0 auto 260px auto;
+        font-size: 0;
+        position: relative;
+        top:250px;
+    }
+    
+    section.section marquee a div.div-place > img{
+        width: 250px;
+        height: 175px;
+    }
+}

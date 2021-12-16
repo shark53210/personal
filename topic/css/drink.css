@@ -1,0 +1,260 @@
+header.header{
+    margin: 0 auto;
+}
+
+div.drink>h1{
+    width: 1200px;
+    font-size: 40px;
+    color:white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    /* text-align: left; */
+    margin: 26.8px auto 0 auto;
+}
+
+/* 更新前 */
+div.aside-main{
+    width: 1200px;
+    margin: 50px auto 0 auto;
+    /* border: 1px solid red; */
+}
+
+aside.aside{
+    width: 320px;
+    /* border: 1px solid blue; */
+    box-sizing: border-box;
+}
+
+/* main.main{
+    width: 830px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+}
+
+aside.aside,main.main{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+aside.aside > a > h1{
+    width: 120px;
+    font-size: 32ps;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white; 
+    margin: 0px auto 30px auto;
+    text-align: center;
+}
+
+aside.aside > a{
+    text-decoration: none;
+}
+
+main.main div.drink-img>img.img{
+    margin: 0 50px;
+}
+
+main.main div.drink-text > p {
+    font-size: 20px;
+    color: white;
+    width: 225px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main.main div.drink-text > p.p{
+    margin: 20px 50px ;
+} */
+
+/* 更新後 */
+
+img{
+    max-width: 100%;
+}
+
+:root{/*html*/
+    /*font-size: 10px*//*62.5%;*/
+    --header-height:60px;
+    --asider-width:240px;
+    }
+
+button.btn_hamburger{
+    display: none;
+
+}    
+
+@media (max-width:767.98px) {
+    button.btn_hamburger{
+        display: inline-block;
+        color: white;
+        background-color: black;
+        font-size: 20px;
+    }
+    
+}
+
+/* ===========aside=============*/
+aside.aside{
+    /* border: 1px solid blue; */
+    position: fixed;
+    /* background-color: #fee094; */
+    left:0;
+    top:400px;
+    width: 200px;
+    height: 100px;
+    /* overflow-Y: auto; */
+    padding: 20px 0;
+    transition: all 1s;
+}    
+
+@media (max-width:767.98px) {
+    aside.aside{
+        top:380px;
+        height: 150px;
+        transform: translateX(-100%);
+        z-index: 2;
+        background-color: rgb(0, 0, 0);
+    }
+
+    aside.aside.-on{
+        transform: translateX(0%);
+    }
+}
+
+
+
+aside.aside nav.nav2 ul.nav_list{
+    /* border: 1px solid purple; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+aside.aside nav.nav2 ul.nav_list > li > a{
+    /* border-bottom: 1px solid white; */
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+    position: relative;
+    /* border:1px solid red; */
+    color: white;
+}
+
+aside.aside nav.nav2 ul.nav_list > li > a::after{
+    content: "";   
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -1px;
+    width: 40%;
+    background-color: white;
+    height: 0.5px;
+}
+
+
+
+/* ===========main==============*/
+main.main{
+    /* border: 1px solid green; */
+    /* height: 1000px; */
+    width: calc(100% - var(--asider-width));
+    margin-left: 200px;
+    /* margin-left: 240px; */
+    /* background-color: lightblue; */
+    min-height: calc(100vh - var(--header-height));/*vh螢幕佔滿比例*/
+    padding: 20px;
+    transition: all 1s;
+}
+@media (max-width:767.98px){
+    main.main{
+        margin-left: 0;
+        padding: 20px 0;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+main.main ul.item_list{
+    /* border: 1px solid green; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+     /* justify-content: center; */
+}
+
+main.main ul.item_list > li{
+    /* border: 1px solid red; */
+    width: calc((100% - 60px) / 4);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:767.98px){
+    main.main ul.item_list > li{
+        width:calc((100% - 20px) / 2);
+    }
+}
+
+main.main ul.item_list > li:nth-child(4n){
+    margin-right: 0;
+}
+
+@media (max-width:767.98px){
+    main.main ul.item_list > li:nth-child(2n){
+        margin-right: 0;
+    }
+}
+
+main.main ul.item_list > li > a{
+    /* border: 1px solid blue; */
+    display: block;
+    text-decoration: none;
+
+}
+
+main.main ul.item_list > li > a div.img_block{
+    /* border: 1px solid orange; */
+    font-size: 0;
+}
+
+/* main.main ul.item_list > li > a div.img_block img{
+    vertical-align: bottom;
+}         *//*跟font-size要果一樣*/
+
+main.main ul.item_list > li > a span.item_text{
+    /* border: 1px solid blue; */
+    display: block;
+    color:white;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 預設值 clip */
+}
+
+/* h1 */
+@media screen and (max-width: 1199.98px){
+    main.main{
+        max-width: 100%;
+        position: relative;
+    }
+    div.drink>h1{
+       width: 90%;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%);
+    }
+}    
+
+@media screen and (max-width: 991.98px){
+    div.drink>h1{
+        font-size: 32px;
+    }
+
+}

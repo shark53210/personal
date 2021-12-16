@@ -1,0 +1,281 @@
+main.main{
+    width: 1200px;
+    height: 1550px;
+    margin: 0 auto ;
+    /* border: 1px solid red; */
+}
+
+header.header{
+    margin: 0 auto;
+}
+
+div.order>h1{
+    font-size: 40px;
+    color:white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    /* text-align: left; */
+}
+
+div.order-text{
+    font-size: 20px;
+    color: #FBB03B;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.form{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.form-back{
+    position: absolute;
+    z-index: 1;
+}
+
+div.form-list{
+    width: 305px;
+    height: 215px;
+    font-size: 20px;
+    color:#FBB03B;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid blue; */
+    margin-left: 120px;
+}
+
+div.form-text{
+    width: auto;
+    height: 215px;
+    font-size: 20px;
+    color:#FBB03B;
+    position: relative;
+    z-index: 2;
+    /* border: 1px solid red; */
+}
+
+div.form-list,div.form-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+div.form-list > label >input{
+    padding: 5 0;
+    margin-left: 5px;
+    margin-bottom: 17px;
+}
+
+div.form-list > label > select{
+    margin-bottom: 17px;
+}
+
+div.form-button > button{
+    font-size: 32px;
+    color: #FBB03B;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    
+    
+}
+
+div.form-button{
+    width: 100px;
+    margin: 50px auto 0 auto;
+}
+
+div.iframe{
+    width: 600px;
+    margin:100px auto ;
+}
+
+div.iframe2{
+    display: none;
+}
+
+/* RWD */
+@media screen and (max-width: 1199.98px){
+    main.main{
+        max-width: 100%;
+        /* position: relative; */
+    }
+    div.order>h1{
+       width: 90%;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%);
+    }
+
+    div.order-text{
+        max-width: 1000px;
+        width: 90%;
+    }
+
+    div.order-text > p{
+        max-width: 1000px;
+        width:100% ;
+    }
+
+    div.form{
+        max-width: 1000px;
+        width: 90%;
+
+    }
+
+    div.form-back{
+        max-width: 1000px;
+        width: 90%;
+    }
+
+    div.form-back > img{
+        max-width: 1000px;
+        width: 90%;
+        height: 460px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    div.from-back > form{
+        max-width: 1000px;
+        width: 90%;
+        /* margin: 0 auto; */
+    }
+    /* textarea{
+        width: 300px;
+        height: 220px;
+    } */
+
+}
+
+@media screen and (max-width: 1029.98px){
+    div.from-text > label > textarea{
+        width: 100%;
+        height: auto;
+    }
+
+    textarea{
+        width: 60%;
+        height: auto;
+   
+    }
+
+    div.from-text > label{
+        width: 100%;
+        height: auto;
+    }
+
+    div.from-texts{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 991.98px){
+    div.form{
+        /* display: flex; */
+        position: relative;
+        z-index: 1;
+    }
+
+    div.form-text{
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top:250px;
+        left: 48%;
+        transform: translate(-50%);
+    }
+    div.form-back{
+        max-width: 1000px;
+        width: 90%;
+        /* text-align: center; */
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div.form-back > img{
+        height: 750px;
+    }
+    div.form-list{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-left: 0;
+    }
+
+
+    div.form-button{
+        position: absolute;
+        top: 600px;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 2;
+    }
+
+    div.iframe{
+        display: none;
+    }
+    div.iframe2{
+        display: inline-block;
+        position:absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top:800px;
+
+    }
+
+}
+
+@media screen and (max-width: 576.98px){
+    div.form-text {
+        width: 250px;
+    }
+    div.form-list{
+        width: 220px;
+    }
+    div.form-list > label > input{
+        width: 150px;
+    }
+
+    main.main{
+        height: 1500px;
+
+    }
+    div.order-text{
+        font-size: 16px;
+    }
+
+    div.form{
+        font-size: 16px;
+    }
+    div.form-button{
+        top:560px;
+    }
+    div.form-button > button{
+        font-size: 24px;
+        width: 80px;
+    }
+    div.form-back > img{
+        height: 680px;
+    }
+
+}
+
+@media screen and (max-width: 377.98px){
+    main.main{
+        height: 1600px;
+    }
+
+}
+
+@media screen and (max-width: 991.98px){
+    div.order>h1{
+        font-size: 32px;
+    }
+
+}

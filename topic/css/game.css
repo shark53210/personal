@@ -1,0 +1,158 @@
+main.main{
+    width: 1200px;
+    /* height: 1450px; */
+    margin: 0 auto ;
+    /* border: 1px solid red; */
+}
+
+header.header{
+    margin: 0 auto;
+}
+
+div.game>h1{
+    font-size: 40px;
+    color:white;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+
+div.game-block{
+    width: 1000px;
+    margin: 50px auto 20px auto;
+    font-size: 0;
+    display: flex;
+}
+
+div.game-img,div.game-text{
+    display: inline-flex;
+}
+
+div.game-block div.game-text>h1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+div.game-block div.game-text>p{
+    font-size: 16px;
+    color: white;
+    width: 450px;
+}
+
+div.game-block>img,div.game-text{
+    display: inline-block;
+    vertical-align: top;
+}
+div.game-text{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+/* RWD */
+
+@media screen and (max-width: 1199.98px){
+    main.main{
+        max-width: 100%;
+        position: relative;
+    }
+    div.game>h1{
+       width: 90%;
+       position: relative;
+       left: 50%;
+       transform: translate(-50%);
+    }
+
+    div.game-block{
+        max-width: 1000px;
+        width: 90%;
+        max-height: 100%;
+    }
+
+    div.game-block div.game-text{
+        width: 100%;
+        max-height: 100%;
+    }
+
+    div.game-block div.game-text > h1{
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    div.game-block div.game-text > p{
+        width: 100%;
+        height: auto;
+    }
+    div.game-block div.game-img > img {
+        width: 400px;
+        height: 280;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    div.game-text{
+        margin-top: 0px;
+    }
+    div.game-block div.game-text > h1{
+    margin-top: 0 ;
+    }
+    div.game-block div.game-text > p{
+        margin-bottom: 0 ;
+    }
+}
+
+@media screen and (max-width: 768.98px){
+    div.game-block div.game-text > h1{
+        font-size: 16px;
+        }
+    div.game-block div.game-text > p{
+        font-size: 12px;
+        }
+    div.game-block div.game-img > img {
+        width: 300px;
+        height: 200;
+    }
+   
+}
+
+@media screen and (max-width: 575.98px){
+    /* main.main{
+        position: relative;
+    } */
+    div.game-img,div.game-text{
+        display: block;
+    }
+    div.game-block{
+        width: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+    div.game-text{
+        width: 280px;
+        margin: 0;
+    }
+    div.game-block div.game-text > h1{
+        width: 280px;
+        margin-top: 30px;
+    }
+
+    div.game-block div.game-text > p{
+        width: 280px;
+    }
+
+    div.game-block div.game-img > img {
+        width: 280px;
+        height: 180;
+    }
+
+    div.game-block2 div.game-img{
+        position: relative;
+        top: -240px;
+    }
+
+    div.game-block2 div.game-text{
+        position: relative;
+        top:200px;
+    }
+ 
+}

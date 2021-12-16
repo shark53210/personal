@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+       <meta charset="utf-8" >
+       <title>美味餐點</title>
+       <meta name="keywords" content="HTML, CSS, JavaScript">
+       <meta name="description" content="網站前端教學">
+       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">  
+       <link href="../css/header.css" rel="stylesheet">
+       <link href="../css/food.css" rel="stylesheet">
+       <link href="../css/footer.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header class="header">
+            <div class="div">
+               <a href="front.html"> <img class="logo" src="../imges/logo.png"> </a>
+                    <nav class="nav">
+                        <label for="burger">☰</label>
+                        <input type="checkbox" id="burger">
+                        <ul class="all-list">
+                        <li><a href="about.html" >關於我們</a></li>
+                        <li><a href="news.html">最新消息</a></li>
+                        <li>
+                            <div class="div-list">餐點介紹
+                            <ul class="ul-list">
+                                <li><a href="food.html">美食菜單</a></li>
+                                <li><a href="drink.html">各式調酒</a></li>
+                            </ul>
+                            </div>
+                        </li>  
+                        <li><a href="game.html">遊戲介紹</a></li>
+                        <li><a href="order.html">預約訂位</a></li>
+                        <li><a href="place.html">環境寫真</a></li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="banner1"></div>
+        </header>
+        
+        <div class="food"><h1>美味餐點</h1></div>
+            <!-- 更新前
+        <div class=aside-main>
+            <aside class="aside">
+                <a href="food.html"><h1>美味餐點</h1></a>
+                <a href="drink.html"><h1>各式調酒</h1></a>
+            </aside>
+            <main class="main">
+                <div class="food-img">
+                    <img src="../imges/food1.png">
+                    <img  class="img" src="../imges/food2.png">
+                    <img src="../imges/food3.png">
+                </div>
+                <div class="food-text">
+                    <p>炸薯條是一種把馬鈴薯切成條狀後油炸而成的食品，是最常見的速食食品之一，流行於美國及歐洲等地。</p>
+                    <p class="p">洋蔥圈是流行在美國，加拿大的一些地方常見的一種開胃菜或配菜。將洋蔥切成一圈圈，加上些麵糊再炸熟，通常配上番茄醬或蛋黃醬食或其他調味醬。</p>
+                    <p>與美式連鎖店同款酥炸起司棒，外皮酥脆，內餡起司濃郁爆漿，聚餐、搭酒都是絕配。</p>
+                </div>
+                <div class="food-img">
+                    <img src="../imges/food4.png">
+                    <img  class="img" src="../imges/food5.png">
+                    <img src="../imges/food6.png">
+                </div>
+                <div class="food-text">
+                    <p>熱狗通常有3至4種口味，店內提供多種醬料（如番茄醬、芥末醬、酸黃瓜醬等）供顧客自行使用</p>
+                    <p class="p">酥脆的外皮配上鮮嫩的肉，當連皮帶肉一口咬下時，脆皮滋滋作響，肉汁爆發於口中</p>
+                    <p>最具代表性的英國國民小吃，想必非「炸魚薯條」莫屬。厚實多汁的魚排裹上粉白的麵衣炸到外皮金黃酥脆，如果能夠再搭配上一杯沁涼冰透的生啤酒，絕對是最佳夥伴。</p>
+                </div>
+                <div class="food-img">
+                    <img src="../imges/food7.png">
+                    <img  class="img" src="../imges/food8.png">
+                    <img src="../imges/food9.png">
+                </div>
+                <div class="food-text">
+                    <p>甘梅薯條是番薯條的一種，是由切成條狀的地瓜高溫熱油炸後，加入梅子粉作為調味。</p>
+                    <p class="p">超人氣炸雞球雞米花．肉質細緻多汁，香氣十足．小巧美味超涮嘴，一口一顆剛剛好．簡單油炸至金黃色即可快速上桌．大人小孩都愛吃。</p>
+                    <p>經典不敗風味，國民家常美食; 外皮酥脆飄香，肉質鮮嫩可口; 嚴選新鮮食材，可搭配蕃茄醬、芥末醬、風味醬汁; 宵夜下酒良伴。</p>
+                </div>
+            </main>
+        </div> -->
+
+        <!-- 更新後 -->
+        <button type="button" class="btn_hamburger">☰</button>
+        <aside class="aside">
+            <nav class="nav2">
+                <button type="button" class="btn_hamburger">☰</button>
+                <ul class="nav_list">
+                    <li><a href="food.html">美味餐點</a></li>
+                    <li><a href="drink.html">各式調酒</a></li>
+    
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main">
+            <ul class="item_list">
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food1.png">
+                        </div>
+                        <span class="item_text">炸薯條是一種把馬鈴薯切成條狀後油炸而成的食品，是最常見的速食食品之一，流行於美國及歐洲等地。</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food2.png">
+                        </div>
+                        <span class="item_text">洋蔥圈是流行在美國，加拿大的一些地方常見的一種開胃菜或配菜。將洋蔥切成一圈圈，加上些麵糊再炸熟，通常配上番茄醬或蛋黃醬食或其他調味醬。</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food3.png">
+                        </div>
+                            <span class="item_text">與美式連鎖店同款酥炸起司棒，外皮酥脆，內餡起司濃郁爆漿，聚餐、搭酒都是絕配。</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food4.png">
+                        </div>
+                        <span class="item_text">熱狗通常有3至4種口味，店內提供多種醬料（如番茄醬、芥末醬、酸黃瓜醬等）供顧客自行使用</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food5.png">
+                        </div>
+                        <span class="item_text">酥脆的外皮配上鮮嫩的肉，當連皮帶肉一口咬下時，脆皮滋滋作響，肉汁爆發於口中</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food6.png">
+                        </div>
+                        <span class="item_text">最具代表性的英國國民小吃，想必非「炸魚薯條」莫屬。厚實多汁的魚排裹上粉白的麵衣炸到外皮金黃酥脆，如果能夠再搭配上一杯沁涼冰透的生啤酒，絕對是最佳夥伴。</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food7.png">
+                        </div>
+                        <span class="item_text">甘梅薯條是番薯條的一種，是由切成條狀的地瓜高溫熱油炸後，加入梅子粉作為調味。</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food8.png">
+                        </div>
+                        <span class="item_text">超人氣炸雞球雞米花．肉質細緻多汁，香氣十足．小巧美味超涮嘴，一口一顆剛剛好．簡單油炸至金黃色即可快速上桌．大人小孩都愛吃。</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img_block">
+                            <img src="../imges/food9.png">
+                        </div>
+                        <span class="item_text">經典不敗風味，國民家常美食; 外皮酥脆飄香，肉質鮮嫩可口; 嚴選新鮮食材，可搭配蕃茄醬、芥末醬、風味醬汁; 宵夜下酒良伴。</span>
+                    </a>
+                </li>
+            </ul>
+        </main>
+
+        <footer class="footer">
+            <div class="div-footer">
+                <div class="ftdiv-text">
+                    <p>本網站為緯育TibaMe前端設計工程師班第72期學員專題作品，本平台僅供學習、展示之用。</p>
+                    
+                    <p>參考資源:http://www.nep6363.com/index.php?lang=tw。若有侵權疑慮，您可以私訊[緯育TibaMe]，後續會由專人協助處理。</p>
+                </div>
+                <div class="ftdiv-follow">
+                    <p>Follow us</p>
+                    
+                    <div class="ftdiv-icon">
+                        <a href="https://www.facebook.com/TibaMe/">
+                        <img src="../icons/FBicon.png"></a>
+                        <a href="#"><img src="../icons/IGicon.png"></a>
+                        <a href="#"><img src="../icons/Twittericon.png"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $("button.btn_hamburger").on("click",function(){
+            $("aside.aside").toggleClass("-on");
+        });
+        </script>
+    </body>
+</html>        
